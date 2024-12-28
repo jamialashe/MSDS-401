@@ -1,0 +1,23 @@
+MSDS 401 R Assignment 1
+
+q1_vector<-c(1:5, sqrt(2), 17*4, rep(c(2.5,5,7.5), times=3))
+
+q1_vector_7<-q1_vector[(q1_vector)<=7]
+length(q1_vector_7)
+
+q1_vector_sorted<-sort(q1_vector)
+sum(q1_vector_sorted[5:10])
+
+q1_vector_sqrd<-q1_vector^2
+table(q1_vector_sqrd>25)
+
+q1_vector_short<-c(q1_vector[-(2:15)])
+(q1_vector_short[1])*(q1_vector_short[2])
+
+user_fuction<-function(x){y<-sin(x/2)-cos(x/2)
+			 return (y)
+			 }
+
+x<-seq(from =-2, to =2, length.out = 4001)
+
+
